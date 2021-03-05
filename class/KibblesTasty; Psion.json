@@ -2373,18 +2373,7 @@
 			"classSource": "ktp",
 			"level": 3,
 			"entries": [
-				"When you reach 3rd level, you can select a second psionic discipline from the list of {@filter psionic disciplines|optionalfeatures|feature type=PsiD}. You cannot select a discipline you already know. You gain all features of a psionic discipline when selecting it."
-			]
-		},
-		{
-			"name": "Psionic Archetype Feature",
-			"source": "ktp",
-			"page": 1,
-			"className": "Psion",
-			"classSource": "ktp",
-			"level": 3,
-			"entries": [
-				"At 3rd level, you gain a feature granted to you by your Psionic Archetype.",
+				"When you reach 3rd level, you can select a second psionic discipline from the list of {@filter psionic disciplines|optionalfeatures|feature type=PsiD}. You cannot select a discipline you already know. You gain all features of a psionic discipline when selecting it.",
 				{
 					"type": "options",
 					"count": 1,
@@ -2399,6 +2388,17 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Psionic Archetype Feature",
+			"source": "ktp",
+			"page": 1,
+			"className": "Psion",
+			"classSource": "ktp",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain a feature granted to you by your Psionic Archetype."
 			]
 		},
 		{
