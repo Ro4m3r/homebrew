@@ -2373,21 +2373,7 @@
 			"classSource": "ktp",
 			"level": 3,
 			"entries": [
-				"When you reach 3rd level, you can select a second psionic discipline from the list of {@filter psionic disciplines|optionalfeatures|feature type=PsiD}. You cannot select a discipline you already know. You gain all features of a psionic discipline when selecting it.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Enhancement Discipline|ktp"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Telepathy Discipline|ktp"
-						}
-					]
-				}
+				"When you reach 3rd level, you can select a second psionic discipline from the list of {@filter psionic disciplines|optionalfeatures|feature type=PsiD}. You cannot select a discipline you already know. You gain all features of a psionic discipline when selecting it."
 			]
 		},
 		{
