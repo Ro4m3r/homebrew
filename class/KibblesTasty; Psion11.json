@@ -3358,15 +3358,37 @@
 			"name": "Telekinesis Discipline",
 			"src": "ktp",
 			"subEntities": {
-				"optionalfeature": [
-					{
-						"name": "Telekinetic Hands",
-						"src": "ktp",
-						"entries": [
-							"Hello"
-						]
-					}
-				]
+				"subEntities": {
+					"item": [
+						{
+							"name": "Unarmed Strike (Pugilist)",
+							"source": "SterlingVermin",
+							"page": 1,
+							"srd": true,
+							"type": "M",
+							"rarity": "none",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Need a hand?"
+									]
+								}
+							],
+							"weaponCategory": "simple",
+							"foundryData": {
+								"equipped": true,
+								"damage.parts": [
+									[
+										"1d(@classes.pugilist.levels > 16 ? 12 : @classes.pugilist.levels > 10 ? 10 : @classes.pugilist.levels > 4 ? 8 : 6) + @mod",
+										"bludgeoning"
+									]
+								],
+								"ability": "str"
+							}
+						}
+					]
+				}
 			}
 		}
 	]
