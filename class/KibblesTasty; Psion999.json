@@ -1902,6 +1902,8 @@
 			]
 		},
 		{
+			"type": "entries",
+			"header": 1,
 			"name": "Telekinetic Hands",
 			"source": "ktp",
 			"entries": [
