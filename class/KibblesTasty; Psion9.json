@@ -3356,7 +3356,12 @@
 	"foundryOptionalFeature": [
 		{
 			"name": "Telekinesis Discipline",
-			"src": "ktp"
+			"src": "ktp",
+			"subEntities": {
+				"optionalfeature": [
+					
+				]
+			}
 		}
 	]
 }
