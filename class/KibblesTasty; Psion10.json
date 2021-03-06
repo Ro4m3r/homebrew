@@ -3359,7 +3359,13 @@
 			"src": "ktp",
 			"subEntities": {
 				"optionalfeature": [
-					
+					{
+						"name": "Telekinetic Hands",
+						"src": "ktp",
+						"entries": [
+							"Hello"
+						]
+					}
 				]
 			}
 		}
