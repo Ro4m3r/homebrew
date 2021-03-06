@@ -3355,21 +3355,6 @@
 	],
 	"foundryOptionalfeature":
 	[
-		{
-			"name": "Telekinesis Discipline",
-			"source": "ktp",
-			"subEntities":{
-				"optionalFeatures":
-				[
-					{
-						"name": "Telekinetic Hands",
-						"source": "ktp",
-						"entries":[
-							"This is a test"
-						]
-					}
-				]
-			}
-		}
+		
 	]
 }
