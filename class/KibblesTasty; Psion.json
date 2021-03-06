@@ -3228,7 +3228,18 @@
 			"header": 2,
 			"entries": [
 				"Additionally at 3rd level, your transdimensional powers are such that you can slide through the spaces you see in dimensions as another slip through a tight space, without conscious thought or effort. You can use your Dexterity ability score in place of your Intelligence ability score calculating the DC or attack roll modifier of Transpositional powers, alternate effects, or talents that require the Transpositional discipline."
-			]
+			],
+			"data": {
+				"activation": {
+					"type": "action",
+					"cost": 1
+				},
+				"uses": {
+					"value": 5,
+					"max": 1,
+					"per": "lr"
+				}
+			}
 		},
 		{
 			"name": "Phase Dancer",
@@ -3319,13 +3330,11 @@
 		{
 			"name": "Agile Slider",
 			"source": "ktpe",
-			"page": 1,
 			"className": "Psion",
 			"classSource": "ktp",
 			"subclassShortName": "Wandering Mind",
 			"subclassSource": "ktpe",
 			"level": 3,
-			"header": 2,
 			"data": {
 				"activation": {
 					"type": "action",
