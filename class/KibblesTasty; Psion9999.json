@@ -1891,8 +1891,13 @@
 			"entries": [
 				"Telekinesis is the ability to interact with physical objects and energy with your psionic powers.",
 				{
-					"type": "refOptionalfeature",
-					"optionalfeature": "Telekinetic Hands|ktp"
+					"type" : "entries",
+					"entries": [
+						{
+							"type": "refOptionalfeature",							
+							"optionalfeature": "Telekinetic Hands|ktp"
+						}
+					]
 				}
 			],
 			"source": "ktp",
