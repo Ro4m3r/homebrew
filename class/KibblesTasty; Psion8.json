@@ -3328,6 +3328,10 @@
 						{
 							"type": "refOptionalfeature",
 							"optionalfeature": "Telepathy Discipline|ktp"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Telekinesis Discipline|ktp"
 						}
 					]
 				}
