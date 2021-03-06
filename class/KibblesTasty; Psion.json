@@ -3341,6 +3341,10 @@
 			"level": 3,
 			"header": 2,
 			"data": {
+				"activation": {
+					"type": "action",
+					"cost": 1
+				},
 				"uses": {
 					"value": 5,
 					"max": 1,
