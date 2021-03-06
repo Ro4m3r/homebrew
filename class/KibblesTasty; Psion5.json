@@ -1898,6 +1898,14 @@
 							"entries": [
 								{
 									"type": "entries",
+									"name": "Telekinetic Hands",
+									"entries": [
+										"When you gain thsi feature, you can manipulate small objects within 30 feet of you with your mind as if using your hand to interact with it. You can use this power to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contants out of a vial. You cannot attack, activate magical items, or carry more than 10 pounds in this manner. You can move an item you are controlling in this way up to 30 feet during your turn.",
+										"You can spend 1 psi point to increase how much you can lift by 100 pounds for 1 turn."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Telekinetic Force",
 									"entries": [
 										"{@italic Psionic Power}",
@@ -2365,7 +2373,21 @@
 			"classSource": "ktp",
 			"level": 3,
 			"entries": [
-				"When you reach 3rd level, you can select a second psionic discipline from the list of {@filter psionic disciplines|optionalfeatures|feature type=PsiD}. You cannot select a discipline you already know. You gain all features of a psionic discipline when selecting it."
+				"When you reach 3rd level, you can select a second psionic discipline from the list of {@filter psionic disciplines|optionalfeatures|feature type=PsiD}. You cannot select a discipline you already know. You gain all features of a psionic discipline when selecting it.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Enhancement Discipline|ktp"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Telepathy Discipline|ktp"
+						}
+					]
+				}
 			]
 		},
 		{
@@ -3301,10 +3323,6 @@
 						{
 							"type": "refOptionalfeature",
 							"optionalfeature": "Telepathy Discipline|ktp"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Telekinesis Discipline|ktp"
 						}
 					]
 				}
@@ -3315,11 +3333,13 @@
 		{
 			"name": "Agile Slider",
 			"source": "ktpe",
+			"page": 1,
 			"className": "Psion",
 			"classSource": "ktp",
 			"subclassShortName": "Wandering Mind",
 			"subclassSource": "ktpe",
 			"level": 3,
+			"header": 2,
 			"data": {
 				"activation": {
 					"type": "action",
