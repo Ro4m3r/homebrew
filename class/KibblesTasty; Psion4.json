@@ -1897,10 +1897,6 @@
 							"type": "entries",
 							"entries": [
 								{
-									"type": "refOptionalfeature",
-									"optionalfeature": "Telekinetic Hands|ktp"
-								},
-								{
 									"type": "entries",
 									"name": "Telekinetic Force",
 									"entries": [
