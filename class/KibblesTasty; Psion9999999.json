@@ -1887,6 +1887,14 @@
 			]
 		},
 		{
+			"name": "Telekinetic Hands",
+			"entries": [
+				"When you gain thsi feature, you can manipulate small objects within 30 feet of you with your mind as if using your hand to interact with it. You can use this power to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contants out of a vial. You cannot attack, activate magical items, or carry more than 10 pounds in this manner. You can move an item you are controlling in this way up to 30 feet during your turn.",
+				"You can spend 1 psi point to increase how much you can lift by 100 pounds for 1 turn."
+			],
+			"source": "ktp"
+		},
+		{
 			"name": "Telekinesis Discipline",
 			"entries": [
 				"Telekinesis is the ability to interact with physical objects and energy with your psionic powers.",
@@ -1905,14 +1913,6 @@
 			"featureType": [
 				"PsiD"
 			]
-		},
-		{
-			"name": "Telekinetic Hands",
-			"entries": [
-				"When you gain thsi feature, you can manipulate small objects within 30 feet of you with your mind as if using your hand to interact with it. You can use this power to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contants out of a vial. You cannot attack, activate magical items, or carry more than 10 pounds in this manner. You can move an item you are controlling in this way up to 30 feet during your turn.",
-				"You can spend 1 psi point to increase how much you can lift by 100 pounds for 1 turn."
-			],
-			"source": "ktp"
 		},
 		{
 			"name": "Telepathy Discipline",
