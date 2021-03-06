@@ -3302,5 +3302,31 @@
 				"Additionally at 14th level, your phase rift no longer has to go in a straight line, though it can only pass through a creature's space once."
 			]
 		}
+	],
+	"foundryClassFeature": [
+		{
+			"name": "Second Discipline",
+			"source": "ktp",
+			"page": 1,
+			"className": "Psion",
+			"classSource": "ktp",
+			"level": 3,
+			"entries": [
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Enhancement Discipline|ktp"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Telepathy Discipline|ktp"
+						}
+					]
+				}
+			]
+		},
 	]
 }
